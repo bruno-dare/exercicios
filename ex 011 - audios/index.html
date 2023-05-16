@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+      <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+    <img src="imgs/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio src="midia/Spirit Riders - Telecasted.mp3" controls autoplay></audio>
+    <!--TEM COMPATIBILIDADE COM MP3. WAV. OGG-->
+    <h2>Caso nao consiga reproduzir o audio</h2>
+    <p>Infelizmente o seu navegador não consegue reproduzir este audio, <a href="midia/Spirit Riders - Telecasted.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    
+</body>
+</html>
